@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Bold Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Bold.ttf.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Light Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Light.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Medium Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Medium.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Regular.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A SemiBold Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A SemiBold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  #background-color{
+    background-color: #202027;
+    color: white;
+    font-size: xx-small;
+    font-weight: 300;
+    height: max-content;
+  }
+
+  #small-text{
+    margin-top: -30px;
+    font-size: x-small;
+  }
+
+  #other-texts{
+    font-size: x-small;
+    margin-top: -15px;
+    margin-left: 10px;
+  }
+
+  #mat-btn{
+    background-color: greenyellow;
+    height: 12px;
+    border-radius: 5px;
+    margin-top: -30px;
+  }
+
+  #mat-icon{
+    font-size: smaller;
+    color: black;
+    font-weight: bold;
+    margin-top: 2px;
+  }
+
+  #relative-items{
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  #second-item{
+    margin-left: -100px;
+  }
+
+  .text-xs{
+    font-size: x-small;
+  }
+
+  #second-items{
+    margin-right: 45px;
+  }

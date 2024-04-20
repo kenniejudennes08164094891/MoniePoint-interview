@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Euclid Circular A';
+    src: url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Bold Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Bold.ttf.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Light Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Light.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Medium Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Medium.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A Regular.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A SemiBold Italic.ttf') format('ttf'), url('/assets/Euclid-CircularA-Custom-Fonts/Euclid Circular A SemiBold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+#background-color{
+    color: white;
+    font-size: xx-small;
+    font-weight: 300;
+  }
+
+  #card-width{
+    width: 805px;
+    border-radius: 0 !important;
+    color: black;
+    border: transparent !important;
+  }
+
+  #card-widths{
+    width: 300px;
+    border-radius: 0 !important;
+    color: black;
+    border: transparent !important;
+  }
+
+  #mat-btn{
+    background-color: greenyellow;
+    height: 12px;
+    border-radius: 5px;
+    margin-top: -10px;
+  }
+
+  #mat-icon{
+    font-size: smaller;
+    color: black;
+    font-weight: bold;
+    margin-top: 2px;
+  }
+
+  #other-texts{
+    font-size: x-small;
+    // margin-top: -15px;
+    margin-left: 10px;
+  }
+
+  #relative-items{
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+
+  #digit{
+    font-weight: 400;
+  }
+
+  #box-button{
+    margin-left: 12px;
+    width: 200px;
+    font-weight: 500;
+  }
+
+  #graph-work{
+    margin-left: 100px;
+  }
+
+  #toggle-handle{
+    margin-top: 130px;
+    margin-left: -10px;
+  }

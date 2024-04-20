@@ -1,0 +1,71 @@
+
+
+<div class="relative overflow-x-auto">
+    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700  bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3" >
+                    <span class="text-2xl" >✠</span> &nbsp; <span id="item-one">Recent Transactions</span>
+             
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    <span id="item-twos">Last 5 activity</span>
+                </th>
+             
+                <th scope="col" class="px-6 py-3">
+                    <span class="text-purple-700" id="hyperlink">See All</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr  class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 cursor-pointer">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <img [src]="stripe" alt="Image" class="w-12 h-12 object-cover mr-4">
+                            <p class="text-sm">Stripe</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-center mt-1" id="item-two">Text underneath</p>
+                      
+                </th>
+                <td class="px-6 py-4">
+                    <button id="mat-btn" type="button" class="text-gray-400 bg-gray-100 focus:text-gray-100 bg-gray-100 focus:outline-none hover:bg-purple-700 hover:text-gray-100 focus:ring-4 focus:ring-transparent focus:bg-purple-700 font-medium text-xs px-3 py-1.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-purple-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                        Business
+                    </button>
+                </td>
+          
+                <td class="px-6 py-4">
+                    <span class="text-green-700">+$1,223</span><span class="text-green-200">.00</span>
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  
+                      
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center">
+                            <img [src]="dropbox" alt="Image" class="w-12 h-12 object-cover mr-4">
+                            <p class="text-sm">Stripe</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-center mt-1" id="item-two">Text underneath</p>
+                    
+                    
+                </th>
+                <td class="px-6 py-4">
+                    <button id="mat-btn" type="button" class="text-gray-400 bg-gray-100 focus:text-gray-100 bg-gray-100 focus:outline-none hover:bg-purple-700 hover:text-gray-100 focus:ring-4 focus:ring-transparent focus:bg-purple-700 font-medium text-xs px-3 py-1.5 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-purple-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+                        Equipment
+                    </button>
+                </td>
+          
+                <td class="px-6 py-4">
+                    <a class="text-black">-$200</a>.00
+                </td>
+            </tr>
+       
+        
+        </tbody>
+    </table>
+</div>
